@@ -17,50 +17,50 @@ import {
 const Services = () => {
   const serviceContent = [
     {
-      header: "App Development",
+      title: "App Development",
       description:
         "Custom mobile and web applications tailored to meet your business needs and enhance user engagement.",
       image: <FaMobileAlt />,
     },
     {
-      header: "Web Development",
+      title: "Web Development",
       description:
         "Comprehensive web development solutions, ensuring your online presence is impactful and user-friendly.",
       image: <FaGlobe />,
     },
     {
-      header: "Social Media Management",
+      title: "Social Media Management",
       description:
         "Strategic social media management that enhances brand visibility and engages your audience effectively.",
       image: <FaChartLine />,
     },
     {
-      header: "IT Consulting",
+      title: "IT Consulting",
       description:
         "Expert IT consulting services to streamline your technology strategy and improve operational efficiency.",
       image: <FaLightbulb />,
     },
     {
-      header: "UI/UX Design",
+      title: "UI/UX Design",
       description:
         "User-centric design solutions that enhance user experience and interface, making your applications intuitive.",
       image: <FaPaintBrush />,
     },
     {
-      header: "Graphic Design",
+      title: "Graphic Design",
       description:
         " Creative graphic design services to build your brand identity and make a lasting impression.",
       image: <FaPencilRuler />,
     },
     {
-      header: "Content Creation",
+      title: "Content Creation",
       description:
         " Engaging content creation that captivates your audience and enhances your online presence.",
       image: <FaPenNib />,
     },
 
     {
-      header: "Digital Marketing",
+      title: "Digital Marketing",
       description:
         "Comprehensive digital marketing strategies that boost your brand’s visibility and drive traffic.",
       image: <FaBullhorn />,

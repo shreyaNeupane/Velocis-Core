@@ -1,3 +1,23 @@
-.team-members{
-    color: white;
+.teamCard {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.teamCard img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.teamCard h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.teamCard p {
+    font-size: 14px;
+    color: gray;
 }

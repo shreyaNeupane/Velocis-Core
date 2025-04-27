@@ -1,0 +1,62 @@
+*{
+     margin: 0;
+    padding: 0; 
+}
+.header{
+    font-size: large;
+    background-color: rgb(8, 8, 70);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header .logo img{
+    height: 60px;
+    width: 90px;
+    
+}
+.header .navbar ul  {
+    display: flex;
+    list-style-type:none;
+    gap: 10px;
+    
+}
+ .header .navbar ul a{
+     color: aliceblue;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid aliceblue;
+}
+/* ------------Footer CSS ------------------ */
+.footer{
+    background-color: rgb(8, 8, 70);
+    color: white;
+}
+.footer .footer-section {
+     display: flex;
+     justify-content: space-evenly;
+}
+.footer .footer-section .f-col-1{
+    width: 300px;
+}
+.footer .footer-section  .f-col-1  img{
+     height: 100px;
+    width: 120px; 
+    
+}
+.footer .footer-section  .f-col-2 .f-col-2-icons i{
+    color: aliceblue;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 6px;
+    margin: 5px;
+}
+/* ---------------intro section --------------------*/
+.intro-container{
+    background-color: rgb(8, 8, 70);;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

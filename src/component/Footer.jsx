@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import logo from "../assets/images/logo.png";
 
 const Footer = () => {
@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer">
         <div className="footer-section">
           <div className="f-col-1">
-            <img src={logo} alt="" srcset="" />
+            <img src={logo} alt="" />
 
             <p>
               We are dedicated to delivering innovative solutions to help you
@@ -19,16 +19,16 @@ const Footer = () => {
             <h2>Get In Touch</h2>
             <br />
             <p>
-              <i class="fa-solid fa-location-dot"></i> Himalayan Road, Biratnagar
+              <i className="fa-solid fa-location-dot"></i> Himalayan Road,
+              Biratnagar
             </p>
             <br />
             <p>
-              <i class="fa-solid fa-phone"></i>  +977 9852079737
-            </p>{" "}
+              <i className="fa-solid fa-phone"></i> +977 9852079737
+            </p>
             <br />
             <p>
-              {" "}
-              <i class="fa-solid fa-envelope"></i> info@velociscore.com
+              <i className="fa-solid fa-envelope"></i> info@velociscore.com
             </p>
             <br />
             <div className="f-col-2-icons">
@@ -68,12 +68,12 @@ const Footer = () => {
             <p>Web Development</p>
             <p>App Development</p>
             <p>Social Media Management</p>
-            <p>It Consulting</p>
+            <p>IT Consulting</p>
           </div>
         </div>
       </div>
     </>
   );
-}
+};
 
-export default Footer
+export default Footer;

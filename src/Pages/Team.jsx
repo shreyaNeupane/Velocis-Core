@@ -56,8 +56,8 @@ import image6 from "../assets/images/team-images/pramod.png";
               <Teamcard
                 key={index}
                 image={member.image}
-                title={member.title}
-                description={member.description}
+                name={member.name}
+                position={member.position}
               />
             ))}
           </div>
