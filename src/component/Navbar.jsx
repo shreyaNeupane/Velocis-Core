@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/images/logo.png'
+import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
     <>
@@ -10,19 +11,46 @@ const Navbar = () => {
         <div className="navbar">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <NavLink
+                to="/"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <a href="#">About</a>
+              <NavLink
+                to="/about"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                About
+              </NavLink>
             </li>
             <li>
-              <a href="#">Services</a>
+              {" "}
+              <NavLink
+                to="/services"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                Services
+              </NavLink>
             </li>
             <li>
-              <a href="#">Team</a>
+              {" "}
+              <NavLink
+                to="/team"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                Team
+              </NavLink>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <NavLink
+                to="/contact"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                Contact
+              </NavLink>
             </li>
           </ul>
         </div>
